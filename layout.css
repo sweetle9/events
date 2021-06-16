@@ -261,15 +261,11 @@
   .poster_1 {
     display: block;
     position: relative;
-    outline: 1vw solid rgba(162, 42, 47, 1);
-    outline-offset: -0.2vw;
     margin-right: 5vw;
   }
   .poster_2 {
     display: block;
     position: relative;
-    outline: 1vw solid rgba(162, 42, 47, 1);
-    outline-offset: -0.2vw;
   }
   .content_main {
     margin-left: 6vw;
@@ -286,7 +282,6 @@
     justify-content: space-between;
     flex-direction: row;
     margin-right: 4vw;
-    margin-left: -1vw;
   }
   .text_2 {
     display: flex;
