@@ -251,12 +251,19 @@
     position: relative;
     width: 100%;
   }
-  .flex_box_poster_1, .flex_box_poster_2 {
+  .flex_box_poster_1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     margin-top:13vw;
+  }
+  .flex_box_poster_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top:7vw;
   }
   .poster_1 {
     display: block;
@@ -301,7 +308,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-right: 4vw;
+    margin-right: 8vw;
   }
   .text_4 {
     display: flex;
