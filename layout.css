@@ -246,12 +246,12 @@
     height: 80%;
     padding-left: 2vw;
   }
-  .content_body_1 {
+  .content_body_1, .content_body_2 {
     display: inline-block;
     position: relative;
     width: 100%;
   }
-  .flex_box_poster_1 {
+  .flex_box_poster_1, .flex_box_poster_2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
