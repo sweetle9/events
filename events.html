@@ -15,9 +15,14 @@
     $(".header_burger, .header_menu").toggleClass("active");
   });
   $('.header_menu').click(function(){
-     $('.header_burger, .header_menu').removeClass('active');
+  $('.header_burger, .header_menu').removeClass('active');
   });
-
+  $(".header_burger_m").click(function() {
+  $(".header_burger_m, .header_menu_m").toggleClass("active");
+ });
+   $('.header_menu_m').click(function(){
+   $('.header_burger_m, .header_menu_m').removeClass('active');
+ });
   });
   </script>
   </head>
@@ -85,6 +90,70 @@
       </div>
       </div>
       </header>
+      <header class="header_m">
+        <div class="container_m">
+          <div class="header_body_m">
+            <a href="#" class="header_logo_m">
+              <img src="images/text_logo.svg" alt="">
+            </a>
+            <a href="#" class="header_logo_2_m">
+              <img src="images/sausage_logo.svg" alt="">
+            </a>
+            <div class="header_burger_m">
+              <span></span>
+            </div>
+            <nav class="header_menu_m">
+              <ul class="header_list_m">
+              <div class="flex_menu_1_m">
+                <div class="upper_menu_m" id='marg'>
+                <li>
+                  <a href="https://sweetle9.github.io/KruchinaArlekina/mainpage.html" class="header_link_m">О НАС</a>
+                </li>
+                </div>
+              <div class="lower_menu_m">
+                  <li>
+                  <a href="https://sweetle9.github.io/Book/book.html" class="header_link_m lower_m">КНИГА</a>
+                </li>
+                <li>
+                  <a href="https://sweetle9.github.io/building/building.html" class="header_link_m lower_m">ЗДАНИЕ</a>
+                </li>
+                <li>
+                  <a href="https://sweetle9.github.io/reviews/reviews.html" class="header_link_m lower_m">ОТЗЫВЫ</a>
+                </li>
+              </div>
+              </div>
+                <div class="flex_menu_2_m">
+                <div class='upper_menu_m'>
+                    <li>
+                    <a href="https://sweetle9.github.io/events/events.html" class="header_link_m">МЕРОПРИЯТИЯ</a>
+                  </li>
+                </div>
+                </div>
+                  <div class="flex_menu_3_m">
+                <div class="upper_menu_m" id='marg'>
+                    <li>
+                    <a href="#" class="header_link_m">АКЦИИ</a>
+                  </li>
+                </div>
+                  <div class="lower_menu_m">
+                    <li>
+                      <a href="https://sweetle9.github.io/game/game.html" class="header_link_m lower_m">ИГРА</a>
+                    </li>
+                    <li>
+                      <a href="https://sweetle9.github.io/bonuscard/bonuscard.html" class="header_link_m lower_m">БОНУСЫ</a>
+                    </li>
+                  </div>
+                  </div>
+              </ul>
+              <div class="header_contact_m">
+                <a href="#" class="header_phone_number_m">8 (812) 10250-50</a>
+                <a href="#" class="header_adress_m">ул. Караванная 16/14, Санкт Петербург</a>
+                <a href="#" class="header_mail_m">kruchinaarlekina</a>
+                </div>
+            </nav>
+            </div>
+          </div>
+          </header>
       <div class="content_main">
       <div class="content_body_1">
       <div class="flex_box_poster_1">
@@ -142,6 +211,66 @@
             </div>
           </div>
       </div>
+      <div class="mobile">
+        <div class="flex_box_poster_1_m">
+          <div class="poster_1_m">
+            <img src="images/1.jpg" alt="">
+          </div>
+          <div class="text_1_m">
+            <div class="h1h2_m">
+              <h1>14/02</h1>
+              <h2>День Валентина</h2>
+            </div>
+            <span class='line_vertical_m'></span>
+            <p>Мероприятие посвящённое одиноким и грустным клоунам, которые в этот день остались одни. В этот день грустить будем вместе.</p>
+          </div>
+        </div>
+        <div class="flex_box_poster_2_m">
+          <div class="poster_2_m">
+            <img src="images/2.jpg" alt="">
+          </div>
+          <div class="text_2_m">
+            <div class="h1h2_m">
+              <h1>24/12</h1>
+              <h2>Дегустация</h2>
+            </div>
+            <span class='line_vertical_m'></span>
+            <p>В ресторане вегетарианцам будет представленое новое овощное меню. Каждый сможет попробовать неожиданные для себя вкусы.</p>
+          </div>
+        </div>
+        <div class="flex_box_poster_3_m">
+          <div class="poster_3_m">
+            <img src="images/3.jpg" alt="">
+          </div>
+          <div class='flex_box_text_2_m'>
+            <div class="text_3_m">
+              <div class="h1h2_m">
+                <h1>24/12</h1>
+                <h2>Дискуссия</h2>
+              </div>
+              <span class='line_vertical_m'></span>
+              <p>Проблемы, с которыми встречаются клоуны — маленькая зарплата, переработки, недружелюбная атмосфера — всё будет обсужденно.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex_box_poster_4_m">
+          <div class="poster_4_m">
+            <img src="images/4.jpg" alt="">
+          </div>
+          <div class="flex_box_text_4_m">
+            <div class="text_4_m">
+              <div class="h1h2_m">
+                <h1>01/01</h1>
+                <h2>Детское меню</h2>
+              </div>
+              <span class='line_vertical_m'></span>
+              <p>Теперь клоуном не надо оставлять детей одних, а самим пойти грустить в ресторан. Одновлённое детское меню понравится каждому ребёнку.</p>
+            </div>
+          </div>
+          </div>
+            </div>
+        </div>
+      </div>
       </div>
       <footer class="footer">
       <div class="footer_container">
@@ -156,6 +285,19 @@
         </div>
         </div>
         </footer>
+        <footer class="footer_m">
+        <div class="footer_container_m">
+            <div class="footer_body_m">
+              <a href="#" class="footer_mail_m">krucinaarlekina@email.ru</a>
+              <a href="#" class="footer_autor_m">Калтаускайте Ингрида</a>
+              <div class="icons_m">
+                <img src="images/fb_icon.png" alt="">
+                <img src="images/twitter_icon.png" alt="">
+                <img src="images/insta_icon.png" alt="">
+              </div>
+          </div>
+          </div>
+          </footer>
     </div>
   </body>
 </html>
