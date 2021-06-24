@@ -197,7 +197,7 @@
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   .upper_menu_m li {
     font-weight: 500;
@@ -225,7 +225,7 @@
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
     margin-top:4vw;
-    text-align: center;
+    text-align: left;
   }
   .flex_menu_3_m {
     display: flex;
@@ -233,7 +233,7 @@
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
     margin-top:4vw;
-    text-align: center;
+    text-align: left;
   }
   .header_contact_m {
     display: flex;
@@ -271,7 +271,7 @@
     flex-direction: column;
     left:0;
     right: 0;
-    align-items: center;
+    align-items: left;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-top: 8vw;
